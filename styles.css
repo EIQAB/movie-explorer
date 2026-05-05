@@ -1,0 +1,43 @@
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: #141414; /* لون الهيدر */
+  border-bottom: 1px solid #333;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.header-logo span {
+  color: #e50914;
+}
+
+.header-links {
+  display: flex;
+  list-style: none;   
+    gap: 30px; 
+      margin: 0;
+  padding: 0;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-register {
+  background-color: #e50914;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
