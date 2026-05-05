@@ -1,0 +1,48 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #0f172a;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Search + Sort */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Grid */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.movie-card {
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  border-radius: 12px;
+  padding: 12px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie-card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
